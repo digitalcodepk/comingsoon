@@ -6,6 +6,7 @@ function App() {
       <div className="App ">
         <div className=" container">
           <Timer />
+          {console.log("Hello World")}
         </div>
       </div>
     </>
