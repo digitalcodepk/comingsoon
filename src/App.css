@@ -37,3 +37,8 @@ h1 {
     margin-left: 10%;
   }
 }
+@media (min-width: 405px) {
+  .App {
+    margin-left: 15%;
+  }
+}

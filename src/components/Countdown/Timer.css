@@ -35,9 +35,10 @@
     padding: 20px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   #countdown .box p {
     font-size: 15px;
+    padding: 5px;
   }
   #countdown .box .text {
     font-size: 8px;
