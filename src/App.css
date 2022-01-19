@@ -2,7 +2,7 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background-image: url(https://images.unsplash.com/photo-1508389377389-b8221c0bcc9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  /* background-image: url(https://images.unsplash.com/photo-1508389377389-b8221c0bcc9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80); */
   background-position: top top;
   background-size: cover;
   margin: 0;
@@ -13,7 +13,7 @@ body {
   position: absolute;
   text-align: left;
   margin-left: 2%;
-  bottom: 20%;
+  bottom: 10%;
 }
 
 .container {
@@ -35,10 +35,18 @@ h1 {
 @media (max-width: 400px) {
   .App {
     margin-left: 10%;
+    bottom: 15%;
   }
 }
 @media only screen and (min-width: 401px) and (max-width: 420px) {
   .App {
     margin-left: 17%;
+    bottom: 20%;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 800px) {
+  .App {
+    margin-left: 25%;
+    bottom: 20%;
   }
 }
